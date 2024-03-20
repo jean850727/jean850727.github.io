@@ -1,0 +1,109 @@
+//estos son los comentarios que tal vez me sirvan
+/*
+function encriptar() {
+    let entrada = document.getElementById("entrada");
+    let mensajeOculto = "";
+    let titulo = document.getElementById("titulo");
+    let salida = document.getElementById("salida");
+    let contador = 0;
+    if ( entrada.value != "") {
+    while(contador < entrada.value.length) {
+
+        mensajeOculto += entrada.value[contador]=="a"
+        ? entrada.value[contador]="ai"
+
+        : (entrada.value[contador]=="e"
+        ? entrada.value[contador]="enter"
+
+        : (entrada.value[contador]=="i"
+        ? entrada.value[contador]="imes"
+
+        : (entrada.value[contador]=="o"
+        ? entrada.value[contador]="ober"
+
+        : (entrada.value[contador]=="u"
+        ? entrada.value[contador]="ufat"
+
+        : entrada.value[contador]))));
+
+        contador++;
+    }
+    titulo.innerHTML = "Tu mensaje oculto es:";
+    salida.innerHTML = mensajeOculto;
+    } else {
+        alert("No puedo encriptar mensajes sin texto");
+    
+}
+   
+    titulo.innerHTML = "Tu mensaje original es:";
+    salida.innerHTML = mensajeOriginal;
+}
+   
+*/
+/*
+function encriptar () {
+    let entrada = document.getElementById("entrada");
+    let mensajeOculto = "";
+    let titulo = document.getElementById("titulo");
+    let salida = document.getElementById("salida");
+    let contador = 0;
+    if ( entrada.value != "") {
+    while(contador < entrada.value.length)
+titulo.innerHTML = "Tu mensaje oculto es:";
+salida.innerHTML = mensajeOculto;
+} else {
+    alert("No puedo encriptar mensajes sin texto");
+    titulo.innerHTML = "Tu mensaje original es:";
+    salida.innerHTML = mensajeOriginal;
+    */
+    //console.log(Object.keys(llaves)[0]);
+        //console.log(Object.keys(llaves)[1]);
+        //console.log(Object.keys(llaves)[2]);
+        //console.log(Object.keys(llaves)[3]);
+        //console.log(Object.keys(llaves)[4]);
+
+//console.log(mensajeIngresado);
+//console.log(mensajeIngresado[0]);
+//console.log(mensajeIngresado[1]);
+//console.log(mensajeIngresado[2]);
+//console.log(mensajeIngresado[3]);
+
+ /*while(mensajeIngresado.length > contador){
+                console.log(mensajeIngresado[contador]);
+                for (let clave in llaves) {
+                    if(mensajeIngresado[contador]==clave){
+                    
+                    }
+                    //console.log(llaves[clave]);
+                  }
+
+        //tengo h es vocal?->no
+        //se guarda la h en mensajeGuardado
+        //no es la ultima letra
+
+
+        //tengo o, es vocal?si
+        //se cambia la o por la palabra ober
+        //se guarda la palabra ober en mensajeGuardado
+        //no es la ultima letra
+
+
+        //tengo l es vocal?no
+        //se guarda la l en mensajeGuardado
+        //no es la ultima letra
+
+
+        //tengo la a es vocal?si
+        //se cambia la a por la palabra ai
+        //se guarda la palabra ai en mensajeGuardado
+        // es la ultima letra
+
+
+        //mensajeIngresado += cajita.value[contador]==e;
+
+//let letras1 = entradaUsuario.replace(/e/g, "enter");
+//console.log(mensajeIngresado);
+//hola=hoberlai; hola
+//if (cajita.value);
+contador++;
+    }*/
