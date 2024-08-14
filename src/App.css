@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+html,
+body {
+  background-color: #bde0fe;
+  font-family: 'Soul Billani', sans-serif;
+
+}
+
+@font-face {
+  font-family: 'Soul Billani';
+  src: url('./Fonts/soul_billani/SoulBillani.otf');
+}
+
+/*header*/
+.header-contenedor {
+  width: 100%;
+  padding: 50px 45px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fdffb6;
+
+}
+
+.header-contenedor h1 {
+  font-family: 'Soul Billani';
+  font-size: 50px;
+  font-weight: 200;
+  color: #ffafcc;
+  margin-left: 20px;
+}
+
+.mariposa {
+  position: absolute;
+  left: 13%;
+  top: 0;
+}
+
+
+
+
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(200px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.moving-image {
+  width: 50px;
+  height: auto;
+  animation: move 3s infinite;
+}
+
+
+.contenedor-imagenes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+  cursor: pointer
+}
+
+.titulo-container {
+  color: #3d8ad2;
+  font-family: "Soul Billani";
+  font-size: 35px;
+  font-weight: 200;
+  padding: 80px 90px;
+}
+
+/*about me*/
+.sobremi {
+  color: #bd32ff;
+  font-family: "Soul Billani";
+  font-weight: 200;
+  font-size: 30px;
+  padding: 80px 50px;
+}
+
+.florecita {
+  width: 40px;
+}
+
+.foto-perfil {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  display: flex;
+  border-radius: 100px;
+  border: 10px solid #93c808;
+}
+
+/*skills*/
+.formacion-titulo {
+  padding: 80px 0;
+}
+
+.skills-container,
+.formacion-container {
+  padding: 30px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+}
+
+.image-hover-carousel {
+  position: relative;
+  display: inline-block;
+}
+
+.main-image {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.carousel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.carousel-image {
+  width: 80%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*carrusel*/
+
+
+/*formulario*/
+.titulo-contact {
+  color: #3d8ad2;
+  font-size: 80px;
+  font-weight: 200;
+  padding: 80px 90px;
+}
+
+.label-nombre,
+.label-email,
+.label-mensaje {
+  color: #bd32ff;
+  font-size: 50px;
+  font-weight: 200;
+  padding: 20px 15px;
+
+
+}
+
+.input-nombre,
+.input-email,
+.text-mensaje {
+  width: 50%;
+  height: 80px;
+  border-radius: 10px;
+  background-color: #fdffb6;
+  padding: 20px 15px;
+  cursor: pointer;
+
+
+}
+
+.boton-enviar {
+  background-color: #fdffb6;
+  border-radius: 5px;
+  color: #3d8ad2;
+  padding: 15px 40px;
+  margin: 80px 80px;
+  font-family: 'Soul Billani';
+  font-size: 25px;
+
+}
+
+/*footer*/
+
+.container-footer {
+  background: #ffc6ff;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+}
+
+.pasto {
+  width: 900px;
+  padding-left: 50px;
+  padding-top: 50vw;
+
+}
+
+.pasto2 {
+  width: 900px;
+  padding-right: 80px;
+}
+
+.tulipanes {
+  width: 40vw;
+  padding-top: 15vw;
+
+}
