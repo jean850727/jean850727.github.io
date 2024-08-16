@@ -34,19 +34,20 @@ const SobreMi = () => {
                     <h3>SKILLS</h3>
                     <ul className="skills-container">
                         <li className="skills-item">
-                            <img src="./src/images/html.webp" alt="" />
+                            <a href="https://vercel.com/jeannette-saldana-bolfetas-projects/barberia-proyecto2" target="_blank"><img src="./src/images/html.webp" alt="" /></a>
                         </li>
                         <li className="skills-item">
-                            <img src="./src/images/js.webp" alt="" />
+                            <a href="https://vercel.com/jeannette-saldana-bolfetas-projects/challenge-encriptado" target="_blank"><img src="./src/images/js.webp" alt="" /></a>
                         </li>
                         <li className="skills-item">
-                            <img src="./src/images/python.webp" alt="" />
+                            <a href="http://" target="_blank"><img src="./src/images/python.webp" alt="" /></a>
+                            <a href="http://" target="_blank"><img src="./src/images/" alt="" /></a>
                         </li>
                         <li className="skills-item">
-                            <img src="./src/images/react.webp" alt="" />
+                            <a href="https://vercel.com/jeannette-saldana-bolfetas-projects/calculadora" target="_blank"><img src="./src/images/react.webp" alt="" /></a>
                         </li>
                         <li className="skills-item">
-                            <img src="./src/images/css.png" alt="" />
+                            <a href="https://vercel.com/jeannette-saldana-bolfetas-projects/challenge-aluraflix" target="_blank"><img src="./src/images/css.png" alt="" /></a>
                         </li>
                     </ul>
                 </div>
@@ -54,10 +55,26 @@ const SobreMi = () => {
                 <div className="formacion-titulo">
                     <h3>FORMACIÓN ACADÉMICA</h3>
                     <ul className="formacion-container">
-                        <li><img src="./src/images/lnkdn.webp" alt="" /></li>
-                        <li><img src="./src/images/ibm.png" alt="" /></li>
-                        <li><img src="./src/images/prepa.png" alt="" /></li>
-                        <li><img src="./src/images/alura.png" alt="" /></li>
+                        <li className="formacion-skills">
+                            <a href="http://" target="_blank"><img src="./src/images/lnkdn.webp" alt="" /></a>
+                            <a href="http://" target="_blank"><img src="./src/images/" alt="" /></a>
+                        </li>
+                        <li className="formacion-skills">
+                            <a href="http://" target="_blank"><img src="./src/images/ibm.png" alt="" /></a>
+                            <a href="http://" target="_blank"><img src="./src/images/" alt="" /></a>
+                        </li>
+                        <li className="formacion-skills">
+                            <a href="http://" target="_blank"><img src="./src/images/prepa.png" alt="" /></a>
+                            <a href="http://" target="_blank"><img src="./src/images/" alt="" /></a>
+                        </li>
+                        <li className="formacion-skills">
+                            <a href="http://" target="_blank"><img src="./src/images/alura.png" alt="" /></a>
+                            <a href="http://" target="_blank"><img src="./src/images/" alt="" /></a>
+                        </li>
+                        <li className="formacion-skills">
+                            <a href="http://" target="_blank"><img src="./src/images/platzi.jpeg" alt="" /></a>
+                            <a href="http://" target="_blank"><img src="./src/images/" alt="" /></a>
+                        </li>
                     </ul>
                 </div>
             </div>

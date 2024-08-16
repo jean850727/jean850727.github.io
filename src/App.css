@@ -2,14 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
 
 html,
 body {
   background-color: #bde0fe;
   font-family: 'Soul Billani', sans-serif;
-
 }
 
 @font-face {
@@ -24,7 +22,6 @@ body {
   display: flex;
   justify-content: space-between;
   background-color: #fdffb6;
-
 }
 
 .header-contenedor h1 {
@@ -40,9 +37,6 @@ body {
   left: 13%;
   top: 0;
 }
-
-
-
 
 @keyframes move {
   0% {
@@ -67,6 +61,7 @@ body {
 
 .contenedor-imagenes {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   margin-left: 20px;
@@ -87,7 +82,8 @@ body {
 /*about me*/
 
 .container-perfil {
-  align-self: end;
+  align-self: start;
+
 }
 
 .sobremi {
@@ -108,6 +104,7 @@ body {
   flex-direction: row-reverse;
   justify-content: start;
 }
+
 .foto-perfil {
   width: 200px;
   height: 200px;
@@ -128,17 +125,29 @@ body {
   padding: 80px 0;
 }
 
-.skills-container,
-.formacion-container {
+.skills-container {
   padding: 30px 0;
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   align-content: center;
   justify-content: space-between;
   align-items: center;
   border: none;
   cursor: pointer;
+  list-style-type: none;
+}
+
+.formacion-container {
+  padding: 30px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  list-style-type: none;
 }
 
 .image-hover-carousel {
@@ -173,39 +182,44 @@ body {
   object-fit: cover;
 }
 
-/*carrusel*/
-
-
 /*formulario*/
 .titulo-contact {
+  display: flex;
   color: #3d8ad2;
-  font-size: 80px;
+  font-size: 40px;
   font-weight: 200;
   padding: 80px 90px;
+  justify-content: center;
+  align-items: center;
+}
+
+.nombre-container,
+.email-container,
+.mensaje-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .label-nombre,
 .label-email,
 .label-mensaje {
   color: #bd32ff;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 200;
   padding: 20px 15px;
-
-
 }
 
 .input-nombre,
 .input-email,
 .text-mensaje {
-  width: 50%;
-  height: 80px;
+  width: 80%;
+  height: 30px;
   border-radius: 10px;
   background-color: #fdffb6;
   padding: 20px 15px;
   cursor: pointer;
-
-
 }
 
 .boton-enviar {
@@ -224,24 +238,82 @@ body {
 .container-footer {
   background: #ffc6ff;
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: flex-start;
+  flex-direction: column-reverse;
+  align-items: center;
 }
 
-.pasto {
-  width: 900px;
-  padding-left: 50px;
-  padding-top: 50vw;
-
+.container-tulipanes {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  display: flex;
+    flex-direction: column;
+    margin-left: 900px;
 }
 
-.pasto2 {
-  width: 900px;
-  padding-right: 80px;
+.lluviadepetalos {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 250%;
+  height: auto;
+  opacity: 0.7;
 }
 
 .tulipanes {
-  width: 40vw;
-  padding-top: 15vw;
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: auto;
+}
+
+.name-footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+h1 {
+  color: #2196f3;
+  font-size: 30px;
+  font-weight: 200;
+}
+
+h2,
+h6 {
+  color: #93c808;
+  font-size: 30px;
+  font-weight: 200;
+}
+
+h3 {
+  color: #bd32ff;
+  font-size: 40px;
+  font-weight: 200;
+}
+
+h4 {
+  color: #ff9195;
+  font-size: 40px;
+  font-weight: 200;
+}
+
+h5 {
+  color: #fdffb6;
+  font-size: 40px;
+  font-weight: 200;
+}
+
+.container-pasto {
+  position: relative;
+}
+
+.pasto {
+  position: relative;
+  display: inline;
+  width: 95vw;
+  margin: 0 80px;
 
 }

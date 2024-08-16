@@ -39,10 +39,10 @@ const Formulario = () => {
 
     return (
         <div>
-            <h2 className='titulo-contact'>Contáctame</h2>
+            <h2 className='titulo-contact'>¿Quieres contactárme? <br/>Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</h2>
             {formSubmitted && <p></p>}
             <form onSubmit={handleSubmit}>
-                <div>
+                <div className='nombre-container'>
                     <label className='label-nombre' htmlFor="name">Nombre:</label>
                     <input className='input-nombre'
                         type="text"
@@ -53,7 +53,7 @@ const Formulario = () => {
                         required
                     />
                 </div>
-                <div>
+                <div className='email-container'>
                     <label className='label-email' htmlFor="email">Email:</label>
                     <input className='input-email'
                         type="email"
@@ -64,7 +64,7 @@ const Formulario = () => {
                         required
                     />
                 </div>
-                <div>
+                <div className='mensaje-container'>
                     <label className='label-mensaje' htmlFor="message">Mensaje:</label>
                     <textarea className='text-mensaje'
                         id="message"
