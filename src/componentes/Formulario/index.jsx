@@ -39,7 +39,7 @@ const Formulario = () => {
 
     return (
         <div>
-            <h2 className='titulo-contact'>¿Quieres contactárme? <br/>Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</h2>
+            <h2 className='titulo-contact'>¿Quieres contactárme? <br />Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</h2>
             {formSubmitted && <p></p>}
             <form onSubmit={handleSubmit}>
                 <div className='nombre-container'>
@@ -74,8 +74,11 @@ const Formulario = () => {
                         required
                     />
                 </div>
-                <a href='mailto:jeasabolfeta45@gmail.com'></a>
-                <button className='boton-enviar' type="submit">Enviar</button>
+                <div>
+                    <a href='https://wa.me/+525517951562'></a>
+                    <button className='boton-enviar' type="submit">Enviar</button>
+                </div>
+
             </form>
         </div>
     );

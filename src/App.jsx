@@ -5,6 +5,7 @@ import Formulario from './componentes/Formulario/index.jsx';
 import Footer from './componentes/Footer/index.jsx';
 import MariposaMovimiento from './componentes/MariposaMovimiento/index.jsx'; 
 
+
 function App() {
   return (
     <div className="App">

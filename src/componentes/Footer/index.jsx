@@ -4,11 +4,15 @@ const Footer = () => {
             <section className="container-footer">
 
                 <section className="row">
+                <div className="container-lluvia">
+                    <img className="lluviadepetalos" src="./src/images/lluviadepetalos.gif" />
+                    </div>
 
                     <div className="container-tulipanes">
-                    <img className="lluviadepetalos" src="./src/images/lluviadepetalos.gif" />
+                   
                         <img className="tulipanes" src="./src/images/tulipanes.svg" alt="" />
                     </div>
+                    
 
                     <div className="name-footer-container">
                         <h1>Creado</h1>
@@ -19,9 +23,7 @@ const Footer = () => {
                         <h6>08/2024</h6>
                     </div>
 
-                    <div className="container-lluvia">
-                       
-                    </div>
+                   
 
                     <div className="container-pasto">
                         <img className="pasto" src="./src/images/pasto.svg" alt="" />

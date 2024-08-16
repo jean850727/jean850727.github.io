@@ -56,24 +56,24 @@ const SobreMi = () => {
                     <h3>FORMACIÓN ACADÉMICA</h3>
                     <ul className="formacion-container">
                         <li className="formacion-skills">
-                            <a href="http://" target="_blank"><img src="./src/images/lnkdn.webp" alt="" /></a>
-                            <a href="http://" target="_blank"><img src="./src/images/" alt="" /></a>
+                            <img src="./src/images/lnkdn.webp" alt="" />
+                           
                         </li>
                         <li className="formacion-skills">
-                            <a href="http://" target="_blank"><img src="./src/images/ibm.png" alt="" /></a>
-                            <a href="http://" target="_blank"><img src="./src/images/" alt="" /></a>
+                            <img src="./src/images/ibm.png" alt="" />
+                           
                         </li>
                         <li className="formacion-skills">
-                            <a href="http://" target="_blank"><img src="./src/images/prepa.png" alt="" /></a>
-                            <a href="http://" target="_blank"><img src="./src/images/" alt="" /></a>
+                            <img src="./src/images/prepa.png" alt="" />
+                           
                         </li>
                         <li className="formacion-skills">
-                            <a href="http://" target="_blank"><img src="./src/images/alura.png" alt="" /></a>
-                            <a href="http://" target="_blank"><img src="./src/images/" alt="" /></a>
+                            <img src="./src/images/alura.png" alt="" />
+                            
                         </li>
                         <li className="formacion-skills">
-                            <a href="http://" target="_blank"><img src="./src/images/platzi.jpeg" alt="" /></a>
-                            <a href="http://" target="_blank"><img src="./src/images/" alt="" /></a>
+                            <img src="./src/images/platzi.jpeg" alt="" />
+                           
                         </li>
                     </ul>
                 </div>
